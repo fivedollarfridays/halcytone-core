@@ -19,7 +19,7 @@ __version__: str = "0.1.0"
 # against. Pinned to a concrete semver, not `halcytone_contracts.__contract_version__`
 # — we want to notice when the installed contracts package drifts from the
 # one we were built against.
-_EXPECTED_CONTRACTS_VERSION = "0.1.0"
+_EXPECTED_CONTRACTS_VERSION = "0.1.1"
 
 check_contract_version(_EXPECTED_CONTRACTS_VERSION)
 

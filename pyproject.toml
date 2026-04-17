@@ -8,10 +8,11 @@ version = "0.1.0"
 description = "Fusion, session lifecycle, and storage orchestration for the Halcytone biofeedback fleet. Consumes halcytone-contracts."
 readme = "README.md"
 requires-python = ">=3.11"
-license = { text = "Proprietary" }
+license = { text = "Apache-2.0" }
 authors = [{ name = "Halcytone" }]
 keywords = ["halcytone", "biofeedback", "fusion", "sessions"]
 classifiers = [
+    "License :: OSI Approved :: Apache Software License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
@@ -19,7 +20,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "halcytone-contracts @ git+https://github.com/fivedollarfridays/halcytone-contracts.git@v0.1.0",
+    "halcytone-contracts @ git+https://github.com/fivedollarfridays/halcytone-contracts.git@v0.1.1",
 ]
 
 [project.optional-dependencies]
